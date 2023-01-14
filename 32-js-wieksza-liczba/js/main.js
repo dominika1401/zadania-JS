@@ -1,5 +1,10 @@
 let num1 = 2;
 let num2 = 5;
-let max = Math.max(num1, num2);
-console.log(max);
-
+function wieksza(num1,num2){ 
+    if (num1 > num2){
+       return num1 ;
+} else {
+    return num2; 
+}
+}
+console.log (wieksza(num1, num2));

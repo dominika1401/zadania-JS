@@ -1,0 +1,23 @@
+body {
+    background-color: yellow;
+}
+p{
+    color: blue;
+    font-size: 4em;
+}
+button{
+    background-color: aqua;
+    font-size: 2em;
+}
+#imie{
+    font-size: 2em;
+    color: blueviolet;
+}
+#nazwisko{
+    font-size: 2em;
+    color: brown;
+}
+#numerTelefonu{
+    font-size: 2em;
+    color: green;
+}
