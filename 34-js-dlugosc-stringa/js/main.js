@@ -1,12 +1,13 @@
-let num1 = "Uwielbiam JavaScript";
-let num2 = "Jestem świetnym programistą";
-let x = num1.length;
-let y = num2.length;
-function wieksza(num1, num2) {
+let str1 = "Uwielbiam JavaScript";
+let str2 = "Jestem świetnym programistą";
+
+function wieksza(string1, string2) {
+    let x = string1.length;
+    let y = string2.length;
     if (x > y) {
-        return num1;
+        return string1;
     } else {
-        return num2;
+        return string2;
     }
 }
-console.log(wieksza(num1,num2));
+console.log(wieksza(str1, str2));
